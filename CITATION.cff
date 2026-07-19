@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use Landscape Audit in research, please cite this software."
+title: "Landscape Audit: Exact local-search closure and neutral-plateau certification"
+type: software
+authors:
+  - name: "Powell Wells"
+version: 0.1.0
+date-released: 2026-07-19
+license: MIT
+repository-code: "https://github.com/PowellWells/landscape-audit"
+url: "https://github.com/PowellWells/landscape-audit"
