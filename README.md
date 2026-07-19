@@ -1,10 +1,16 @@
 # Landscape Audit
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 **Exact neighborhood closure and neutral-plateau certification for discrete local search.**
 
 [![CI](https://github.com/PowellWells/landscape-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/PowellWells/landscape-audit/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/PowellWells/landscape-audit)](https://github.com/PowellWells/landscape-audit/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+<p align="center">
+  <img src="assets/landscape-audit-overview.png" width="900" alt="Landscape Audit: a local landscape with a neutral component and an improving exit">
+</p>
 
 Landscape Audit starts from one discrete candidate and deterministically enumerates the neighborhood around it. It distinguishes a state with no improving move from an entire neutral component with no improving exit, checks incremental deltas against an independently recomputed objective, and emits replayable JSON and GraphML artifacts.
 
